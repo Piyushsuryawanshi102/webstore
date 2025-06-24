@@ -1,0 +1,60 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 28rem;
+  font-size: 1rem;
+  width: 100%;
+  padding: 1.2rem;
+  background-color: black;
+  color: white;
+}
+.nav .nav1 {
+  width: 10%;
+  color: white;
+  height: 10px;
+}
+.nav .nav2 {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.nav .nav3 {
+  display: flex;
+  flex-direction: row;
+  gap: 0.7rem;
+}
+
+.font {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding: 3rem;
+  background-color: black;
+  color: white;
+  font-size: 8rem;
+  line-height: 1;
+  letter-spacing: 0.4rem;
+  font-weight: 300;
+}
+
+#p {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  font-size: 2rem;
+}/*# sourceMappingURL=info.css.map */
